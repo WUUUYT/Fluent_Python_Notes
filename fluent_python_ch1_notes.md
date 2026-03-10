@@ -1,7 +1,5 @@
 # Ch 1. Python 数据模型
 
-## 核心概念
-
 Python 数据模型（Data Model）是 Python 作为框架的描述，定义了语言构建块的接口。通过实现**特殊方法（Special Methods / Dunder Methods）**，自定义对象可以与语言核心特性无缝集成。
 
 > **Dunder** = Double Underscore，如 `__getitem__` 读作 "dunder-getitem"
@@ -252,7 +250,7 @@ class MyRange:
 ---
 
 
-## 核心要点总结
+## 总结
 
 1. 特殊方法由 **Python 解释器调用**，而不是用户代码直接调用
 2. 应调用内置函数（`len()`、`iter()`），而非直接调用 `__len__()`、`__iter__()`
